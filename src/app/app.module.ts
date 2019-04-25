@@ -3,9 +3,10 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import { TodosComponent } from './app.todos';
+import { TodoComponent } from './app.todo';
 
 @NgModule({
-  declarations: [AppComponent, TodosComponent],
+  declarations: [AppComponent, TodosComponent, TodoComponent],
   imports: [BrowserModule],
   providers: [],
   bootstrap: [AppComponent]
